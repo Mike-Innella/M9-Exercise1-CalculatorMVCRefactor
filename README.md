@@ -44,4 +44,4 @@ Once your server is running, test your routes using:
 curl "http://localhost:3000/api/calculator/add?a=1&b=2"
 ```
 
-You can also use Postman or your browser for GET requests.
+You can also use Thunder Client or your browser for GET requests.
