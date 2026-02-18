@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const calcRoutes = require('./routes/calculatorRoutes')
+const calcRoutes = require('./routes/calculator.route');
 
 app.use(express.static('public'));
 app.use(express.json());
